@@ -21,6 +21,6 @@ class MultiplyBy3CommandTest extends TestCase
          'number' => '3',
      ]);
      $output = $commandTester->getDisplay();
-     $this->assertSame("5 * 3 = 15\n", $output);
+     $this->assertSame("3 * 3 = 15\n", $output);
    }
 }
