@@ -26,12 +26,24 @@ class MultiplyTest extends TestCase
         $this->assertSame(20, $this->multiply->multiplyBy5(4));
     }
 
-    public function testC(){
+    public function testC()
+    {
 	$this->assertSame(35, $this->multiply->multiplyBy7(5));
     }
 
-    public function testD(){
+    public function testD()
+    {
 	$this->assertSame(28, $this->multiply->multiplyBy7(4));
+    }
+    
+    public function testI()
+    {
+	$this->assertSame(15, $this->multiply->multiplyBy3(5));
+    }
+
+    public function testJ()
+    {
+	$this->assertSame(24, $this->multiply->multiplyBy3(8));
     }
 	
 	public function testE(){

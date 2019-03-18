@@ -4,7 +4,9 @@
 
 require __DIR__.'/vendor/autoload.php';
 
+use App\MultiplyBy3Command;
 use App\MultiplyBy5Command;
+use App\MultiplyBy7Command;
 use Symfony\Component\Console\Application;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;

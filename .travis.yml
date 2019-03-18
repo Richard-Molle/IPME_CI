@@ -3,6 +3,6 @@ php:
         - 7.1.9
 install: composer install
 script:
-        - ./bin/phpunit
-        - ./bin/phpunit --group integration
-        - ./bin/security-checker security:check composer.lock
+        - bin/phpunit
+        - bin/phpunit --group integration
+        - bin/security-checker security:check composer.lock
